@@ -13,6 +13,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class Checks {
@@ -26,13 +29,17 @@ protected static WebDriverWait wait;
   @BeforeClass
   @Parameters(value={"browser","version","platform", "device"})
   public void setUp(String browser, String version, String platform, String device) throws Exception {
-    DesiredCapabilities capability = new DesiredCapabilities();
+    
+	DesiredCapabilities capability = new DesiredCapabilities();
+    DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+    Date date = new Date();
+    
     capability.setCapability("platform", platform);
     capability.setCapability("browserName", browser);
     capability.setCapability("browserVersion", version);
     capability.setCapability("device", device);
     capability.setCapability("project", "Cross browser testing");
-    capability.setCapability("build", "1.0");
+    capability.setCapability("build", dateFormat.format(date));
     driver = new RemoteWebDriver(new URL(URL), capability);
     System.out.println("Testing " + browser + " " + version + " on " + platform + " with " + device + " device");
   }
