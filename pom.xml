@@ -1,6 +1,147 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>browser-testing</groupId>
-  <artifactId>1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tests</groupId>
+	<artifactId>cross-browser-testing</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>cross-browser-testing</name>
+	<description>Project containing Selenium test cases for lfx project.</description>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<systemPropertyVariables>
+						<org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
+					</systemPropertyVariables>
+					<properties>
+						<property>
+							<name>usedefaultlisteners</name>
+							<value>false</value>
+						</property>
+						<property>
+							<name>listener</name>
+							<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+						</property>
+						<property>
+							<name>outputDir</name>
+							<value>test-output/</value>
+						</property>
+					</properties>
+					<workingDirectory>test-output/</workingDirectory>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/suites/${test.suite}</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<verbose>true</verbose>
+					<includeTests>true</includeTests>
+					<rulesets>
+						<ruleset>${basedir}/pmd/rulesets/basic.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/codesize.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/comments.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/unnecessary.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/unusedcode.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/naming.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/empty.xml</ruleset>
+						<ruleset>${basedir}/pmd/rulesets/imports.xml</ruleset>
+					</rulesets>
+					<targetJdk>1.6</targetJdk>
+				</configuration>
+			</plugin>
+			
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId>
+				<version>${failsafe-plugin-version}</version> <configuration> <suiteXmlFiles>
+				<suiteXmlFile>src/test/resources/suites/mainSuite.xml</suiteXmlFile> </suiteXmlFiles>
+				</configuration> <executions> <execution> <goals> <goal>integration-test</goal>
+				<goal>verify</goal> </goals> </execution> </executions> </plugin> -->
+			
+			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>selenium-maven-plugin</artifactId>
+				<version>${selenium-plugin-version}</version> <executions> <execution> <id>start</id>
+				<phase>pre-integration-test</phase> <goals> <goal>start-server</goal> </goals>
+				<configuration> <background>true</background> </configuration> </execution> <execution>
+				<id>stop</id> <phase>post-integration-test</phase> <goals> <goal>stop-server</goal>
+				</goals> </execution> </executions> </plugin> -->
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium-version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		  <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
+        <version>${selenium-server}</version>
+		<type>jar</type>
+		<scope>compile</scope>
+    </dependency> 		
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng-version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-support</artifactId>
+			<version>${selenium-version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			
+			<groupId>velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.4</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.3</version>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.testng</groupId>
+					<artifactId>testng</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<selenium-version>2.45.0</selenium-version>
+		<selenium-server>2.45.0</selenium-server>
+		<testng-version>6.8.8</testng-version>
+		<surefire-plugin-version>2.14.1</surefire-plugin-version>
+		<failsafe-plugin-version>2.14.1</failsafe-plugin-version>
+		<selenium-plugin-version>2.3</selenium-plugin-version>
+		<test.suite>QASuite.xml</test.suite>
+	</properties>
+	<repositories>
+		<repository>
+			<id>java-net</id>
+			<url>http://download.java.net/maven/2</url>
+		</repository>
+	</repositories>
 </project>
