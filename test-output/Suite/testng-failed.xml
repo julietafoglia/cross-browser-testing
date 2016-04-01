@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="11" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="platform" value="MAC"/>
+  <parameter name="browser" value="iPhone"/>
+  <parameter name="device" value="iPhone 5S"/>
+  <parameter name="version" value="default"/>
+  <test name="IE 10 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="version" value="10.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- IE 10 Test(failed) -->
+  <test name="IE 11 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="version" value="11.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- IE 11 Test(failed) -->
+  <test name="Firefox 43 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="version" value="43.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Firefox 43 Test(failed) -->
+  <test name="Firefox 44 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="version" value="44.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Firefox 44 Test(failed) -->
+  <test name="Chrome 47 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="47.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Chrome 47 Test(failed) -->
+  <test name="Chrome 48 Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="48.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Chrome 48 Test(failed) -->
+  <test name="MS Edge Test(failed)">
+    <parameter name="platform" value="WINDOWS"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Edge"/>
+    <parameter name="version" value="13.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- MS Edge Test(failed) -->
+  <test name="Safari 9 Test(failed)">
+    <parameter name="platform" value="MAC"/>
+    <parameter name="device" value="default"/>
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="9.0"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Safari 9 Test(failed) -->
+  <test name="Android 5.0 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Google Nexus 5"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 5.0 Test(failed) -->
+  <test name="Android 4.4 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Samsung Galaxy S5"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 4.4 Test(failed) -->
+  <test name="Android 4.3 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Samsung Galaxy S4"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 4.3 Test(failed) -->
+  <test name="Android 4.2 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Google Nexus 4"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 4.2 Test(failed) -->
+  <test name="Android 4.1 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Samsung Galaxy S3"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 4.1 Test(failed) -->
+  <test name="Android 4.0 Test(failed)">
+    <parameter name="platform" value="ANDROID"/>
+    <parameter name="device" value="Google Nexus"/>
+    <parameter name="browser" value="android"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- Android 4.0 Test(failed) -->
+  <test name="iOS 8 Test(failed)">
+    <parameter name="platform" value="MAC"/>
+    <parameter name="device" value="iPhone 6"/>
+    <parameter name="browser" value="iPhone"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- iOS 8 Test(failed) -->
+  <test name="iOS 9 Test(failed)">
+    <parameter name="platform" value="MAC"/>
+    <parameter name="device" value="iPhone 6S"/>
+    <parameter name="browser" value="iPhone"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- iOS 9 Test(failed) -->
+  <test name="iOS 7.0 Test(failed)">
+    <parameter name="platform" value="MAC"/>
+    <parameter name="device" value="iPhone 5S"/>
+    <parameter name="browser" value="iPhone"/>
+    <parameter name="version" value="default"/>
+    <classes>
+      <class name="tests.Checks">
+        <methods>
+          <include name="main"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Checks -->
+    </classes>
+  </test> <!-- iOS 7.0 Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
