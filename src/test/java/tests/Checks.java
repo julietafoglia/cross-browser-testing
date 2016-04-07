@@ -31,7 +31,7 @@ protected static WebDriverWait wait;
   public void setUp(String browser, String version, String platform, String device) throws Exception {
     
 	DesiredCapabilities capability = new DesiredCapabilities();
-    DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+    DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
     Date date = new Date();
     
     capability.setCapability("platform", platform);

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Android 4.3 Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 01 15:32:07 ART 2016</td>
+<td>Started on:</td><td>Wed Apr 06 16:08:41 ART 2016</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1201 ms)</td>
+<tr><td>Total time:</td><td>96 seconds (96200 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,32 +68,75 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.Checks.setUp()'><b>setUp</b><br>Test class: tests.Checks<br>Parameters: android, default, ANDROID, Samsung Galaxy S4</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.18 seconds
+<td title='tests.Checks.main()'><b>main</b><br>Test class: tests.Checks</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;i686&apos;, os.version: &apos;3.4.0+&apos;, java.version: &apos;0&apos;
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.10.117&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.1.190&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+*** Element info: {Using=id, value=e}
+Session ID: 0461ad9165ccd3dad4a4a208482e73276bfe8b9e
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=0461ad9165ccd3dad4a4a208482e73276bfe8b9e, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace897786053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace897786053'><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.18 seconds
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;i686&apos;, os.version: &apos;3.4.0+&apos;, java.version: &apos;0&apos;
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.10.117&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.1.190&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959493565", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959493565'><pre>org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;i686&apos;, os.version: &apos;3.4.0+&apos;, java.version: &apos;0&apos;
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.1.190&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+*** Element info: {Using=id, value=e}
+Session ID: 0461ad9165ccd3dad4a4a208482e73276bfe8b9e
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=0461ad9165ccd3dad4a4a208482e73276bfe8b9e, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -101,20 +144,21 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
@@ -129,22 +173,37 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;i686&apos;, os.version: &apos;3.4.0+&apos;, java.version: &apos;0&apos;
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Julieta-PC&apos;, ip: &apos;10.30.1.190&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_71&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
 </pre></div></td>
-<td>0</td>
-<td>tests.Checks@79a66240</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.Checks.main()'><b>main</b><br>Test class: tests.Checks</td>
-<td></td>
-<td>0</td>
-<td>tests.Checks@79a66240</td></tr>
+<td>8</td>
+<td>tests.Checks@12ada9e9</td></tr>
 </table><p>
 </body>
 </html>

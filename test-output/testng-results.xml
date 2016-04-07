@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="17" failed="0" total="17" passed="0">
+<testng-results skipped="0" failed="4" total="17" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24993" started-at="2016-04-01T18:31:51Z" finished-at="2016-04-01T18:32:16Z">
+  <suite name="Suite" duration-ms="1051541" started-at="2016-04-06T19:02:08Z" finished-at="2016-04-06T19:19:40Z">
     <groups>
     </groups>
-    <test name="IE 10 Test" duration-ms="2787" started-at="2016-04-01T18:31:51Z" finished-at="2016-04-01T18:31:54Z">
+    <test name="IE 10 Test" duration-ms="35228" started-at="2016-04-06T19:02:08Z" finished-at="2016-04-06T19:02:43Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@37611a05]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:31:51Z" finished-at="2016-04-01T15:31:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@3e0a1e1f]" name="setUp" is-config="true" duration-ms="12123" started-at="2016-04-06T16:02:08Z" finished-at="2016-04-06T16:02:20Z">
           <params>
             <param index="0">
               <value>
@@ -30,70 +30,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.14 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2.14 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@37611a05]" name="main" duration-ms="1" started-at="2016-04-01T15:31:54Z" finished-at="2016-04-01T15:31:54Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@3e0a1e1f]" name="main" duration-ms="23087" started-at="2016-04-06T16:02:20Z" finished-at="2016-04-06T16:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- IE 10 Test -->
-    <test name="IE 11 Test" duration-ms="1234" started-at="2016-04-01T18:31:54Z" finished-at="2016-04-01T18:31:55Z">
+    <test name="IE 11 Test" duration-ms="39167" started-at="2016-04-06T19:02:44Z" finished-at="2016-04-06T19:03:23Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@7a19b0d0]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:31:54Z" finished-at="2016-04-01T15:31:54Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@6ac604]" name="setUp" is-config="true" duration-ms="18967" started-at="2016-04-06T16:02:44Z" finished-at="2016-04-06T16:03:03Z">
           <params>
             <param index="0">
               <value>
@@ -116,70 +64,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.21 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.21 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@7a19b0d0]" name="main" duration-ms="1" started-at="2016-04-01T15:31:55Z" finished-at="2016-04-01T15:31:55Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@6ac604]" name="main" duration-ms="20196" started-at="2016-04-06T16:03:03Z" finished-at="2016-04-06T16:03:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- IE 11 Test -->
-    <test name="Firefox 43 Test" duration-ms="1250" started-at="2016-04-01T18:31:55Z" finished-at="2016-04-01T18:31:57Z">
+    <test name="Firefox 43 Test" duration-ms="26299" started-at="2016-04-06T19:03:23Z" finished-at="2016-04-06T19:03:49Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@1f8f110d]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:31:55Z" finished-at="2016-04-01T15:31:55Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@a06514b]" name="setUp" is-config="true" duration-ms="13309" started-at="2016-04-06T16:03:23Z" finished-at="2016-04-06T16:03:36Z">
           <params>
             <param index="0">
               <value>
@@ -202,70 +98,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.22 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.22 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@1f8f110d]" name="main" duration-ms="2" started-at="2016-04-01T15:31:57Z" finished-at="2016-04-01T15:31:57Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@a06514b]" name="main" duration-ms="12988" started-at="2016-04-06T16:03:36Z" finished-at="2016-04-06T16:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Firefox 43 Test -->
-    <test name="Firefox 44 Test" duration-ms="1634" started-at="2016-04-01T18:31:57Z" finished-at="2016-04-01T18:31:58Z">
+    <test name="Firefox 44 Test" duration-ms="21227" started-at="2016-04-06T19:03:49Z" finished-at="2016-04-06T19:04:11Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@20e8ac93]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:31:57Z" finished-at="2016-04-01T15:31:57Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@4f5bec86]" name="setUp" is-config="true" duration-ms="8395" started-at="2016-04-06T16:03:49Z" finished-at="2016-04-06T16:03:58Z">
           <params>
             <param index="0">
               <value>
@@ -288,70 +132,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.61 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.61 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@20e8ac93]" name="main" duration-ms="1" started-at="2016-04-01T15:31:58Z" finished-at="2016-04-01T15:31:58Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@4f5bec86]" name="main" duration-ms="12829" started-at="2016-04-06T16:03:58Z" finished-at="2016-04-06T16:04:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Firefox 44 Test -->
-    <test name="Chrome 47 Test" duration-ms="1812" started-at="2016-04-01T18:31:58Z" finished-at="2016-04-01T18:32:00Z">
+    <test name="Chrome 47 Test" duration-ms="25791" started-at="2016-04-06T19:04:11Z" finished-at="2016-04-06T19:04:36Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@26767bef]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:31:58Z" finished-at="2016-04-01T15:31:58Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@391ba64d]" name="setUp" is-config="true" duration-ms="10592" started-at="2016-04-06T16:04:11Z" finished-at="2016-04-06T16:04:21Z">
           <params>
             <param index="0">
               <value>
@@ -374,70 +166,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.79 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.79 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@26767bef]" name="main" duration-ms="0" started-at="2016-04-01T15:32:00Z" finished-at="2016-04-01T15:32:00Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@391ba64d]" name="main" duration-ms="15196" started-at="2016-04-06T16:04:21Z" finished-at="2016-04-06T16:04:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Chrome 47 Test -->
-    <test name="Chrome 48 Test" duration-ms="1321" started-at="2016-04-01T18:32:00Z" finished-at="2016-04-01T18:32:02Z">
+    <test name="Chrome 48 Test" duration-ms="14219" started-at="2016-04-06T19:04:36Z" finished-at="2016-04-06T19:04:51Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@34315d04]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:00Z" finished-at="2016-04-01T15:32:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@15c3cd93]" name="setUp" is-config="true" duration-ms="3737" started-at="2016-04-06T16:04:36Z" finished-at="2016-04-06T16:04:40Z">
           <params>
             <param index="0">
               <value>
@@ -460,70 +200,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.29 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.29 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@34315d04]" name="main" duration-ms="1" started-at="2016-04-01T15:32:02Z" finished-at="2016-04-01T15:32:02Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@15c3cd93]" name="main" duration-ms="10480" started-at="2016-04-06T16:04:40Z" finished-at="2016-04-06T16:04:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Chrome 48 Test -->
-    <test name="MS Edge Test" duration-ms="1407" started-at="2016-04-01T18:32:02Z" finished-at="2016-04-01T18:32:03Z">
+    <test name="MS Edge Test" duration-ms="22496" started-at="2016-04-06T19:04:51Z" finished-at="2016-04-06T19:05:13Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@56c747e8]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:02Z" finished-at="2016-04-01T15:32:02Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@70221d9a]" name="setUp" is-config="true" duration-ms="10038" started-at="2016-04-06T16:04:51Z" finished-at="2016-04-06T16:05:01Z">
           <params>
             <param index="0">
               <value>
@@ -546,70 +234,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.38 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.38 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@56c747e8]" name="main" duration-ms="1" started-at="2016-04-01T15:32:03Z" finished-at="2016-04-01T15:32:03Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@70221d9a]" name="main" duration-ms="12456" started-at="2016-04-06T16:05:01Z" finished-at="2016-04-06T16:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- MS Edge Test -->
-    <test name="Safari 9 Test" duration-ms="1486" started-at="2016-04-01T18:32:03Z" finished-at="2016-04-01T18:32:05Z">
+    <test name="Safari 9 Test" duration-ms="21746" started-at="2016-04-06T19:05:13Z" finished-at="2016-04-06T19:05:35Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@1da477bf]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:03Z" finished-at="2016-04-01T15:32:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@3e7cddcb]" name="setUp" is-config="true" duration-ms="7736" started-at="2016-04-06T16:05:13Z" finished-at="2016-04-06T16:05:21Z">
           <params>
             <param index="0">
               <value>
@@ -632,70 +268,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.46 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.46 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@1da477bf]" name="main" duration-ms="1" started-at="2016-04-01T15:32:05Z" finished-at="2016-04-01T15:32:05Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@3e7cddcb]" name="main" duration-ms="14007" started-at="2016-04-06T16:05:21Z" finished-at="2016-04-06T16:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Safari 9 Test -->
-    <test name="Android 5.0 Test" duration-ms="1182" started-at="2016-04-01T18:32:05Z" finished-at="2016-04-01T18:32:06Z">
+    <test name="Android 5.0 Test" duration-ms="89143" started-at="2016-04-06T19:05:35Z" finished-at="2016-04-06T19:07:04Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@f50fa46]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:05Z" finished-at="2016-04-01T15:32:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@16494e4a]" name="setUp" is-config="true" duration-ms="61715" started-at="2016-04-06T16:05:35Z" finished-at="2016-04-06T16:06:37Z">
           <params>
             <param index="0">
               <value>
@@ -718,70 +302,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.16 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.16 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@f50fa46]" name="main" duration-ms="1" started-at="2016-04-01T15:32:06Z" finished-at="2016-04-01T15:32:06Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@16494e4a]" name="main" duration-ms="27423" started-at="2016-04-06T16:06:37Z" finished-at="2016-04-06T16:07:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 5.0 Test -->
-    <test name="Android 4.4 Test" duration-ms="1239" started-at="2016-04-01T18:32:06Z" finished-at="2016-04-01T18:32:07Z">
+    <test name="Android 4.4 Test" duration-ms="97059" started-at="2016-04-06T19:07:04Z" finished-at="2016-04-06T19:08:41Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@5f3c750c]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:06Z" finished-at="2016-04-01T15:32:06Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@3bc581d7]" name="setUp" is-config="true" duration-ms="58691" started-at="2016-04-06T16:07:04Z" finished-at="2016-04-06T16:08:03Z">
           <params>
             <param index="0">
               <value>
@@ -804,70 +336,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.21 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.21 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@5f3c750c]" name="main" duration-ms="0" started-at="2016-04-01T15:32:07Z" finished-at="2016-04-01T15:32:07Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@3bc581d7]" name="main" duration-ms="38366" started-at="2016-04-06T16:08:03Z" finished-at="2016-04-06T16:08:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 4.4 Test -->
-    <test name="Android 4.3 Test" duration-ms="1201" started-at="2016-04-01T18:32:07Z" finished-at="2016-04-01T18:32:08Z">
+    <test name="Android 4.3 Test" duration-ms="96200" started-at="2016-04-06T19:08:41Z" finished-at="2016-04-06T19:10:17Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@79a66240]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:07Z" finished-at="2016-04-01T15:32:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@12ada9e9]" name="setUp" is-config="true" duration-ms="87436" started-at="2016-04-06T16:08:41Z" finished-at="2016-04-06T16:10:09Z">
           <params>
             <param index="0">
               <value>
@@ -890,20 +370,40 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main()[pri:0, instance:tests.Checks@12ada9e9]" name="main" duration-ms="8747" started-at="2016-04-06T16:10:09Z" finished-at="2016-04-06T16:10:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.18 seconds
+              <![CDATA[Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'i686', os.version: '3.4.0+', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 0461ad9165ccd3dad4a4a208482e73276bfe8b9e
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=0461ad9165ccd3dad4a4a208482e73276bfe8b9e, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.18 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'i686', os.version: '3.4.0+', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 5.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 0461ad9165ccd3dad4a4a208482e73276bfe8b9e
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=0461ad9165ccd3dad4a4a208482e73276bfe8b9e, version=18, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macyos, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S4-4.3-1080x1920}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -911,20 +411,21 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
@@ -939,21 +440,45 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'i686', os.version: '3.4.0+', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@79a66240]" name="main" duration-ms="0" started-at="2016-04-01T15:32:08Z" finished-at="2016-04-01T15:32:08Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 4.3 Test -->
-    <test name="Android 4.2 Test" duration-ms="1246" started-at="2016-04-01T18:32:08Z" finished-at="2016-04-01T18:32:10Z">
+    <test name="Android 4.2 Test" duration-ms="65964" started-at="2016-04-06T19:10:18Z" finished-at="2016-04-06T19:11:24Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@5fdb7adc]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:08Z" finished-at="2016-04-01T15:32:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@48d96814]" name="setUp" is-config="true" duration-ms="37060" started-at="2016-04-06T16:10:18Z" finished-at="2016-04-06T16:10:55Z">
           <params>
             <param index="0">
               <value>
@@ -976,20 +501,40 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main()[pri:0, instance:tests.Checks@48d96814]" name="main" duration-ms="28898" started-at="2016-04-06T16:10:55Z" finished-at="2016-04-06T16:11:24Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.22 seconds
+              <![CDATA[Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gea477bb', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.67 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 9df8600f5b0279ea9dfa740e66914b9435f162ab
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=9df8600f5b0279ea9dfa740e66914b9435f162ab, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.22 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gea477bb', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.67 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 9df8600f5b0279ea9dfa740e66914b9435f162ab
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=9df8600f5b0279ea9dfa740e66914b9435f162ab, version=17, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus 4, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus 4-4.2-768x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -997,20 +542,21 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
@@ -1025,21 +571,45 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gea477bb', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:856)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@5fdb7adc]" name="main" duration-ms="0" started-at="2016-04-01T15:32:10Z" finished-at="2016-04-01T15:32:10Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 4.2 Test -->
-    <test name="Android 4.1 Test" duration-ms="1277" started-at="2016-04-01T18:32:10Z" finished-at="2016-04-01T18:32:11Z">
+    <test name="Android 4.1 Test" duration-ms="65151" started-at="2016-04-06T19:11:24Z" finished-at="2016-04-06T19:12:29Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@19e0f99e]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:10Z" finished-at="2016-04-01T15:32:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@12fc438b]" name="setUp" is-config="true" duration-ms="45269" started-at="2016-04-06T16:11:24Z" finished-at="2016-04-06T16:12:09Z">
           <params>
             <param index="0">
               <value>
@@ -1062,20 +632,40 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main()[pri:0, instance:tests.Checks@12fc438b]" name="main" duration-ms="19873" started-at="2016-04-06T16:12:09Z" finished-at="2016-04-06T16:12:29Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.25 seconds
+              <![CDATA[Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gc497e41', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 771515a782976a55d55c235d3d2a9623599767c1
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=771515a782976a55d55c235d3d2a9623599767c1, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.25 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gc497e41', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 771515a782976a55d55c235d3d2a9623599767c1
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=771515a782976a55d55c235d3d2a9623599767c1, version=16, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Samsung Galaxy S3, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Samsung Galaxy S3-4.1-720x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1083,20 +673,21 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
@@ -1111,21 +702,46 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-gc497e41', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@19e0f99e]" name="main" duration-ms="1" started-at="2016-04-01T15:32:11Z" finished-at="2016-04-01T15:32:11Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 4.1 Test -->
-    <test name="Android 4.0 Test" duration-ms="1173" started-at="2016-04-01T18:32:11Z" finished-at="2016-04-01T18:32:12Z">
+    <test name="Android 4.0 Test" duration-ms="63065" started-at="2016-04-06T19:12:29Z" finished-at="2016-04-06T19:13:32Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@5e5aefe]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:11Z" finished-at="2016-04-01T15:32:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@5ee55d17]" name="setUp" is-config="true" duration-ms="35403" started-at="2016-04-06T16:12:29Z" finished-at="2016-04-06T16:13:04Z">
           <params>
             <param index="0">
               <value>
@@ -1148,20 +764,40 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main()[pri:0, instance:tests.Checks@5ee55d17]" name="main" duration-ms="27654" started-at="2016-04-06T16:13:04Z" finished-at="2016-04-06T16:13:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.15 seconds
+              <![CDATA[Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-g46b05b2', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.68 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 79e00fa6b359314452552dba45ac06bdf1b10eee
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=79e00fa6b359314452552dba45ac06bdf1b10eee, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.15 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-g46b05b2', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 10.68 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+*** Element info: {Using=id, value=e}
+Session ID: 79e00fa6b359314452552dba45ac06bdf1b10eee
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{proxy_type=node, javascriptEnabled=true, acceptSslCerts=true, browserVersion=default, browserName=android, webdriver.remote.sessionid=79e00fa6b359314452552dba45ac06bdf1b10eee, version=15, proxy={httpProxy=10.0.2.2:45691, sslProxy=10.0.2.2:45691, proxyType=manual}, browser=android, applicationCacheEnabled=true, takesScreenshot=true, browserstack.ie.noFlash=false, 64bit=false, platform=ANDROID, rotatable=true, locationContextEnabled=true, acceptSslCert=false, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, device=Google Nexus, browserstack.video=true, language=Apache-HttpClient/4.3.6 (java 1.5), orig_os=macmav, browserstack.debug=false, mobile={browser=mobile, version=Google Nexus-4.0-720x1280}}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1169,20 +805,21 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at tests.Checks.main(Checks.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
@@ -1197,21 +834,46 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Could not find element with id: e
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Linux', os.arch: 'armv7l', os.version: '2.6.29-g46b05b2', java.version: '0'
+Driver info: driver.version: EventFiringWebDriver
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Julieta-PC', ip: '10.30.1.190', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.android.library.AndroidWebElement.lookupElement(AndroidWebElement.java:346)
+	at org.openqa.selenium.android.library.AndroidWebElement.access$1(AndroidWebElement.java:335)
+	at org.openqa.selenium.android.library.AndroidWebElement$FindByImpl.findElementById(AndroidWebElement.java:249)
+	at org.openqa.selenium.android.library.AndroidWebDriver$AndroidFindBy.findElementById(AndroidWebDriver.java:604)
+	at org.openqa.selenium.By$ById.findElement(By.java:216)
+	at org.openqa.selenium.android.library.AndroidWebDriver.findElement(AndroidWebDriver.java:543)
+	at org.openqa.selenium.android.AndroidApkDriver.findElement(AndroidApkDriver.java:70)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Native Method)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@5e5aefe]" name="main" duration-ms="1" started-at="2016-04-01T15:32:12Z" finished-at="2016-04-01T15:32:12Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- Android 4.0 Test -->
-    <test name="iOS 8 Test" duration-ms="1280" started-at="2016-04-01T18:32:12Z" finished-at="2016-04-01T18:32:13Z">
+    <test name="iOS 8 Test" duration-ms="146832" started-at="2016-04-06T19:13:32Z" finished-at="2016-04-06T19:15:59Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@40199011]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:12Z" finished-at="2016-04-01T15:32:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@2b132ca1]" name="setUp" is-config="true" duration-ms="130168" started-at="2016-04-06T16:13:32Z" finished-at="2016-04-06T16:15:42Z">
           <params>
             <param index="0">
               <value>
@@ -1234,70 +896,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.26 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.26 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@40199011]" name="main" duration-ms="1" started-at="2016-04-01T15:32:13Z" finished-at="2016-04-01T15:32:13Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@2b132ca1]" name="main" duration-ms="16660" started-at="2016-04-06T16:15:42Z" finished-at="2016-04-06T16:15:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- iOS 8 Test -->
-    <test name="iOS 9 Test" duration-ms="1342" started-at="2016-04-01T18:32:13Z" finished-at="2016-04-01T18:32:15Z">
+    <test name="iOS 9 Test" duration-ms="145032" started-at="2016-04-06T19:15:59Z" finished-at="2016-04-06T19:18:24Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@1bbe7ff5]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:13Z" finished-at="2016-04-01T15:32:13Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@5b4bf56d]" name="setUp" is-config="true" duration-ms="115693" started-at="2016-04-06T16:15:59Z" finished-at="2016-04-06T16:17:55Z">
           <params>
             <param index="0">
               <value>
@@ -1320,70 +930,18 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.32 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.32 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@1bbe7ff5]" name="main" duration-ms="0" started-at="2016-04-01T15:32:15Z" finished-at="2016-04-01T15:32:15Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@5b4bf56d]" name="main" duration-ms="29336" started-at="2016-04-06T16:17:55Z" finished-at="2016-04-06T16:18:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- tests.Checks -->
     </test> <!-- iOS 9 Test -->
-    <test name="iOS 7.0 Test" duration-ms="1306" started-at="2016-04-01T18:32:15Z" finished-at="2016-04-01T18:32:16Z">
+    <test name="iOS 7.0 Test" duration-ms="75897" started-at="2016-04-06T19:18:24Z" finished-at="2016-04-06T19:19:40Z">
       <class name="tests.Checks">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@52ccff1e]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-01T15:32:15Z" finished-at="2016-04-01T15:32:15Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.Checks@7a61053]" name="setUp" is-config="true" duration-ms="60030" started-at="2016-04-06T16:18:24Z" finished-at="2016-04-06T16:19:24Z">
           <params>
             <param index="0">
               <value>
@@ -1406,60 +964,10 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.28 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.28 seconds
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Julieta-PC', ip: '10.30.10.117', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_71'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at tests.Checks.setUp(Checks.java:36)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
-	at org.testng.TestNG.run(TestNG.java:1009)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="main()[pri:0, instance:tests.Checks@52ccff1e]" name="main" duration-ms="1" started-at="2016-04-01T15:32:16Z" finished-at="2016-04-01T15:32:16Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:tests.Checks@7a61053]" name="main" duration-ms="15864" started-at="2016-04-06T16:19:24Z" finished-at="2016-04-06T16:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
