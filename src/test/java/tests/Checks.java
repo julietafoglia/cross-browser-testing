@@ -20,8 +20,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Checks {
 
-public static final String USERNAME = "julietafoglia4";
-public static final String AUTOMATE_KEY = "RqRJeyXBoS6YbdoDxeaZ";
+public static final String USERNAME = "julietafoglia5";
+public static final String AUTOMATE_KEY = "jMSXSe5pLnbsPCUiTwiu";
 public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 private static WebDriver driver;
 protected static WebDriverWait wait;
